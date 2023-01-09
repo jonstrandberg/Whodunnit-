@@ -162,7 +162,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
-//The murderer will be Mr. Green this is because the function is at the function level, all the others will change within the functin, but as they are nested, this is not what will be returned. You can see this from the indentation. As there is no access identifier this will leak to global level. You can see what is on the outside, but you can't see what's inside. This is as the verdict calls changeMurderer and not the other functions within the nested variable. 
+//The murderer will be Mr. Green this is because the function is at the function level, all the others will change within the functin, but as they are nested, this is not what will be returned. You can see this from the indentation. As there is no access identifier this will display in global level. You can see what is on the outside, but you can't see what's inside. This is as the verdict calls changeMurderer and not the other functions within the nested variable. 
 
 #### Episode 8
 
